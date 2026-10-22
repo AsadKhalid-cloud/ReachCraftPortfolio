@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog & Digital Growth Insights | ReachCraft Agency</title>
+    
+    <!-- Google Fonts: Poppins & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ================= MAIN NAVBAR ================= -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-content">
+            
+            <a href="index.html" class="brand-logo">
+                <div class="logo-box">
+                    <img src="assets/logo.png" alt="ReachCraft Logo" class="logo-img">
+                </div>
+                <span class="logo-text">Reach<span class="text-accent">Craft</span></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a href="about.html" class="nav-link">COMPANY <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html#about-story">About Us</a></li>
+                            <li><a href="about.html#our-team">Our Team</a></li>
+                            <li><a href="about.html#why-choose-us">Why Choose Us</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="services.html" class="nav-link">SERVICES <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services.html#web-dev">Web Development</a></li>
+                            <li><a href="services.html#software-dev">Custom Software &amp; Apps</a></li>
+                            <li><a href="services.html#social-media">Social Media Marketing</a></li>
+                            <li><a href="services.html#meta-ads">Digital Marketing (Meta Ads)</a></li>
+                            <li><a href="services.html#ai-creative">AI Video, Editing &amp; Branding</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="portfolio.html" class="nav-link">CASE STUDIES <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="portfolio.html#recent-projects">Recent Projects</a></li>
+                            <li><a href="portfolio.html#success-stories">Client Success Stories</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link active">BLOG</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="nav-cta">
+                <div class="call-icon">
+                    <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <div class="call-details">
+                    <span class="call-label">Call or WhatsApp today!</span>
+                    <a href="tel:+923106780072" class="call-number">0310 6780072</a>
+                </div>
+            </div>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ================= 1. BLOG HERO BANNER ================= -->
+    <section class="page-hero">
+        <div class="container page-hero-content">
+            <span class="hero-badge"><i class="fa-regular fa-newspaper"></i> REACHCRAFT INSIGHTS</span>
+            <h1 class="page-hero-title">
+                Practical Guides on Tech, AI &amp;<br>
+                <span class="text-accent">Business Growth in Pakistan</span>
+            </h1>
+            <p class="page-hero-desc">
+                Learn how modern websites, custom software, AI video ads, and smart Meta campaigns help small and medium businesses scale faster.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= 2. FEATURED ARTICLE SPOTLIGHT ================= -->
+    <section class="blog-featured-section">
+        <div class="container">
+            <div class="featured-blog-card">
+                <div class="featured-blog-img">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80" alt="Featured Blog Post">
+                    <span class="featured-label"><i class="fa-solid fa-star"></i> FEATURED GUIDE</span>
+                </div>
+                <div class="featured-blog-content">
+                    <div class="blog-meta-top">
+                        <span class="blog-cat-tag">Digital Strategy</span>
+                        <span class="blog-read-time"><i class="fa-regular fa-clock"></i> 4 min read</span>
+                    </div>
+                    <h2 class="featured-blog-title">
+                        Why Boosting Facebook Posts Fails—And How Connected Websites + Meta Ads Win Customers
+                    </h2>
+                    <p class="featured-blog-excerpt">
+                        Most businesses in Pakistan lose money clicking the "Boost Post" button without pixel tracking or a proper landing page. Here is how our 3-step funnel turns ad spend into daily WhatsApp orders and calls.
+                    </p>
+                    <div class="featured-blog-footer">
+                        <div class="blog-author">
+                            <div class="author-badge">RC</div>
+                            <div>
+                                <strong>ReachCraft Founders</strong>
+                                <span>Asad, Furqan &amp; Zohaib</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary open-blog-modal" data-post="featured">
+                            Read Full Guide <i class="fa-solid fa-arrow-right" style="margin-left:8px;"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= 3. ALL BLOG ARTICLES + FILTER & SEARCH ================= -->
+    <section class="blog-list-section">
+        <div class="container">
+            
+            <!-- Filter Tabs & Search Bar Row -->
+            <div class="blog-controls-bar">
+                <div class="blog-filters" id="blog-filters">
+                    <button class="blog-filter-btn active" data-category="all">All Articles</button>
+                    <button class="blog-filter-btn" data-category="web-software">Web &amp; Software</button>
+                    <button class="blog-filter-btn" data-category="marketing">Meta Ads &amp; Social</button>
+                    <button class="blog-filter-btn" data-category="ai-creative">AI Video &amp; Design</button>
+                </div>
+
+                <div class="blog-search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="blog-search-input" placeholder="Search articles...">
+                </div>
+            </div>
+
+            <!-- 6 Blog Posts Grid -->
+            <div class="blog-grid" id="blog-grid">
+
+                <!-- Blog Post 1 -->
+                <article class="blog-card" data-category="web-software">
+                    <div class="blog-card-thumb">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Web Development">
+                        <span class="blog-pill">Web Development</span>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-date-row">
+                            <span><i class="fa-regular fa-user"></i> By Asad Khalid</span>
+                            <span><i class="fa-regular fa-clock"></i> 3 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">5 Must-Have Features Every Pakistani Business Website Needs to Generate Leads</h3>
+                        <p class="blog-card-desc">
+                            From under-2-second mobile load speed to one-click WhatsApp chat integration—discover what separates a brochure site from a sales machine.
+                        </p>
+                        <button class="blog-read-btn open-blog-modal" data-post="post1">
+                            Read Article <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card" data-category="marketing">
+                    <div class="blog-card-thumb">
+                        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80" alt="Meta Ads Strategy">
+                        <span class="blog-pill">Meta Ads</span>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-date-row">
+                            <span><i class="fa-regular fa-user"></i> By Furqan</span>
+                            <span><i class="fa-regular fa-clock"></i> 4 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">How to Get High-Intent WhatsApp Leads Using Meta Ads on a Small Budget</h3>
+                        <p class="blog-card-desc">
+                            Learn how proper audience targeting, creative hooks, and WhatsApp funnel filtering help you attract real buyers instead of window shoppers.
+                        </p>
+                        <button class="blog-read-btn open-blog-modal" data-post="post2">
+                            Read Article <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card" data-category="ai-creative">
+                    <div class="blog-card-thumb">
+                        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" alt="AI Video Ads">
+                        <span class="blog-pill">AI Video &amp; Editing</span>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-date-row">
+                            <span><i class="fa-regular fa-user"></i> By Zohaib</span>
+                            <span><i class="fa-regular fa-clock"></i> 3 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">How AI Video Ads &amp; Dynamic Reels Are Cutting Ad Costs by 50%</h3>
+                        <p class="blog-card-desc">
+                            Static posters are being ignored. See how AI-generated product commercials and fast-paced Reels grab attention in the first 3 seconds.
+                        </p>
+                        <button class="blog-read-btn open-blog-modal" data-post="post3">
+                            Read Article <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="blog-card" data-category="web-software">
+                    <div class="blog-card-thumb">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Custom Software">
+                        <span class="blog-pill">Custom Software</span>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-date-row">
+                            <span><i class="fa-regular fa-user"></i> By Asad Khalid</span>
+                            <span><i class="fa-regular fa-clock"></i> 5 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">Excel vs. Custom Web Software: When Should Your Business Upgrade?</h3>
+                        <p class="blog-card-desc">
+                            If you are losing track of inventory, daily billing, or customer follow-ups, a tailored Node.js &amp; SQL system can save 15+ hours a week.
+                        </p>
+                        <button class="blog-read-btn open-blog-modal" data-post="post4">
+                            Read Article <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="blog-card" data-category="ai-creative">
+                    <div class="blog-card-thumb">
+                        <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80" alt="Brand Identity">
+                        <span class="blog-pill">Logo &amp; Branding</span>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-date-row">
+                            <span><i class="fa-regular fa-user"></i> By Zohaib</span>
+                            <span><i class="fa-regular fa-clock"></i> 3 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">Why a Consistent Brand Kit Makes Customers Trust Your Prices</h3>
+                        <p class="blog-card-desc">
+                            Your logo, color palette, and typography tell a story before a customer even reads your offer. Here is how premium branding boosts sales.
+                        </p>
+                        <button class="blog-read-btn open-blog-modal" data-post="post5">
+                            Read Article <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Post 6 -->
+                <article class="blog-card" data-category="marketing">
+                    <div class="blog-card-thumb">
+                        <img src="https://images.unsplash.com/photo-1533750516457-a7f992034fec?auto=format&fit=crop&w=800&q=80" alt="Social Media Growth">
+                        <span class="blog-pill">Social Media</span>
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="blog-date-row">
+                            <span><i class="fa-regular fa-user"></i> By Furqan</span>
+                            <span><i class="fa-regular fa-clock"></i> 4 min read</span>
+                        </div>
+                        <h3 class="blog-card-title">The 30-Day Content Formula to Turn Inactive Pages Into Active Communities</h3>
+                        <p class="blog-card-desc">
+                            How balancing educational Reels, client proof, and clear call-to-action posts builds organic authority on Instagram and Facebook.
+                        </p>
+                        <button class="blog-read-btn open-blog-modal" data-post="post6">
+                            Read Article <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= 4. ARTICLE READER MODAL (POPUP) ================= -->
+    <div class="review-modal-overlay" id="blog-reader-modal">
+        <div class="blog-reader-box">
+            <button class="modal-close" id="close-blog-modal" aria-label="Close Article">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <span class="reviews-badge" id="reader-category">DIGITAL STRATEGY</span>
+            <h2 class="reader-title" id="reader-title">Article Title</h2>
+            <div class="reader-meta" id="reader-meta">By ReachCraft Team</div>
+            <div class="reader-content" id="reader-content">
+                <!-- Dynamic Article Content Loaded via JS -->
+            </div>
+            <div class="reader-cta-box">
+                <div>
+                    <h4>Need help implementing this for your business?</h4>
+                    <p>Talk directly with Asad, Furqan &amp; Zohaib on WhatsApp.</p>
+                </div>
+                <a href="https://wa.me/923106780072" target="_blank" class="btn btn-primary">
+                    Chat on WhatsApp <i class="fa-brands fa-whatsapp" style="margin-left:8px;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= 5. CTA BANNER ================= -->
+    <section class="cta-section">
+        <div class="container cta-container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Put These Strategies Into Action?</h2>
+                <p class="cta-desc">
+                    Let our team build your website, software, or ad campaign so you can focus on running your business.
+                </p>
+                <a href="contact.html" class="btn-cta-white">
+                    Get a Free Quote <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="cta-visual">
+                <svg class="cta-illustration" viewBox="0 0 560 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="280" cy="120" r="105" fill="white" fill-opacity="0.07"/>
+                    <rect x="150" y="30" width="260" height="165" rx="12" fill="#0A0F1F" stroke="#334155" stroke-width="2"/>
+                    <rect x="162" y="44" width="236" height="137" rx="4" fill="#F8FAFF"/>
+                    <path d="M190 140 L235 100 L275 122 L335 72" stroke="#2F6BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="335" cy="72" r="6" fill="#2F6BFF"/>
+                    <path d="M125 195 H435 L415 215 H145 L125 195 Z" fill="#CBD5E1"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="brand-logo footer-logo">
+                        <div class="logo-box">
+                            <img src="assets/logo.png" alt="ReachCraft Logo" class="logo-img">
+                        </div>
+                        <span class="logo-text">Reach<span class="text-accent">Craft</span></span>
+                    </a>
+                    <p class="footer-desc">
+                        All-in-one digital agency in Pakistan building modern websites, custom software, AI videos, and high-converting Meta ad campaigns.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="https://facebook.com/ReachCraft" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/thereachcraft" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/company/ReachCraft" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/923106780072" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">IT Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#web-dev">Web Development</a></li>
+                        <li><a href="services.html#software-dev">Custom Software</a></li>
+                        <li><a href="services.html#software-dev">Mobile App Dev</a></li>
+                        <li><a href="services.html#web-dev">E-Commerce Stores</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Marketing &amp; AI</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#meta-ads">Meta Ads &amp; Google Ads</a></li>
+                        <li><a href="services.html#social-media">Social Media Marketing</a></li>
+                        <li><a href="services.html#ai-creative">AI Video Creation</a></li>
+                        <li><a href="services.html#ai-creative">Logo &amp; Video Editing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html#about-story">About Us</a></li>
+                        <li><a href="about.html#our-team">Our Team</a></li>
+                        <li><a href="portfolio.html#recent-projects">Recent Projects</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4 class="footer-heading">Newsletter</h4>
+                    <p class="newsletter-text">
+                        Get the latest digital growth tips &amp; updates straight to your inbox.
+                    </p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" aria-label="Subscribe">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                    <div class="footer-direct-contact">
+                        <a href="tel:+923106780072"><i class="fa-solid fa-phone"></i> 0310 6780072</a>
+                        <a href="tel:+923010754505"><i class="fa-brands fa-whatsapp"></i> +92 301 0754505</a>
+                        <a href="mailto:reachcraft1@gmail.com"><i class="fa-regular fa-envelope"></i> reachcraft1@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright-text">
+                    &copy; 2026 <strong>ReachCraft</strong>. All rights reserved. | Designed &amp; Developed by <span class="text-accent">ReachCraft Team</span>
+                </p>
+                <div class="footer-legal">
+                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/923106780072" target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReachCraft | Build Your Brand. Reach Your Customers.</title>
+    
+    <!-- Google Fonts: Poppins (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ================= MAIN NAVBAR ================= -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-content">
+            
+           <!-- Brand Logo -->
+<a href="index.html" class="brand-logo">
+    <div class="logo-box">
+        <img src="assets/logo.png" alt="ReachCraft Logo" class="logo-img">
+    </div>
+    <span class="logo-text">Reach<span class="text-accent">Craft</span></span>
+</a>
+        
+            <!-- Navigation Links (Multi-Page Setup) -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">HOME</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+    <a href="about.html" class="nav-link">COMPANY <i class="fa-solid fa-chevron-down"></i></a>
+    <ul class="dropdown-menu">
+        <li><a href="about.html#about-story">About Us</a></li>
+        <li><a href="about.html#our-team">Our Team</a></li>
+        <li><a href="about.html#why-choose-us">Why Choose Us</a></li>
+    </ul>
+</li>
+
+                   <li class="nav-item dropdown">
+    <a href="services.html" class="nav-link">SERVICES <i class="fa-solid fa-chevron-down"></i></a>
+    <ul class="dropdown-menu">
+        <li><a href="services.html#web-dev">Web Development</a></li>
+        <li><a href="services.html#software-dev">Custom Software &amp; Apps</a></li>
+        <li><a href="services.html#social-media">Social Media Marketing</a></li>
+        <li><a href="services.html#meta-ads">Digital Marketing (Meta Ads)</a></li>
+        <li><a href="services.html#ai-creative">AI Video, Editing &amp; Branding</a></li>
+    </ul>
+</li>
+
+                   <li class="nav-item dropdown">
+    <a href="portfolio.html" class="nav-link">CASE STUDIES <i class="fa-solid fa-chevron-down"></i></a>
+    <ul class="dropdown-menu">
+        <li><a href="portfolio.html#recent-projects">Recent Projects</a></li>
+        <li><a href="portfolio.html#success-stories">Client Success Stories</a></li>
+    </ul>
+</li>
+
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">BLOG</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Right Call Us CTA -->
+           <div class="nav-cta">
+                <a href="https://wa.me/923106780072" class="nav-quote-btn">
+                    <span>Let's Talk</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+    </header>
+
+<!-- ================= HERO SLIDER SECTION ================= -->
+    <section class="hero-section" id="hero">
+        
+        <!-- Left & Right Slider Arrows -->
+        <button class="hero-arrow prev-arrow" id="hero-prev" aria-label="Previous Slide">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="hero-arrow next-arrow" id="hero-next" aria-label="Next Slide">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <div class="container hero-container">
+            <div class="hero-slider" id="hero-slider">
+
+                <!-- ========== SLIDE 1: DIGITAL MARKETING ========== -->
+                <div class="hero-slide active">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <i class="fa-regular fa-paper-plane"></i> DIGITAL MARKETING
+                        </div>
+                        <h1 class="hero-title">
+                            Get found on Google, <span class="text-accent">seen</span> on every screen
+                        </h1>
+                        <p class="hero-desc">
+                            Google Ads, Meta Ads, YouTube Ads, LinkedIn Ads and full social media management — run as one connected strategy, not scattered campaigns.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="https://wa.me/923106780072" target="_blank" class="btn btn-primary">Talk to our team</a>
+                            <a href="services.html" class="btn btn-outline">Explore services</a>
+                        </div>
+                        <div class="hero-tags">
+                            <span class="tag-pill">Google Ads</span>
+                            <span class="tag-pill">Meta Ads</span>
+                            <span class="tag-pill">YouTube Ads</span>
+                            <span class="tag-pill">SEO</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="visual-card">
+                            <div class="visual-glow"></div>
+                            <!-- Animated Growth Chart SVG (Exact Match) -->
+                            <svg class="visual-svg" viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Vertical Bars -->
+                                <line x1="65" y1="155" x2="65" y2="105" stroke="#0A0F1F" stroke-width="3.5" stroke-linecap="round"/>
+                                <line x1="98" y1="155" x2="98" y2="75" stroke="#2F6BFF" stroke-width="3.5" stroke-linecap="round"/>
+                                <line x1="132" y1="155" x2="132" y2="112" stroke="#0A0F1F" stroke-width="3.5" stroke-linecap="round"/>
+                                <line x1="168" y1="155" x2="168" y2="62" stroke="#2F6BFF" stroke-width="3.5" stroke-linecap="round"/>
+                                <!-- Dotted Trend Line -->
+                                <path class="svg-animate-line" d="M58 98 L96 68 L130 88 L162 46" stroke="#0A0F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 8"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========== SLIDE 2: WEB DEVELOPMENT ========== -->
+                <div class="hero-slide">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <i class="fa-solid fa-code"></i> WEB DEVELOPMENT
+                        </div>
+                        <h1 class="hero-title">
+                            Websites built for <span class="text-accent">speed</span>, scale and sales
+                        </h1>
+                        <p class="hero-desc">
+                            High-converting business websites, custom web portals, and e-commerce stores crafted with modern design, fast performance, and clean architecture.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="https://wa.me/923106780072" target="_blank" class="btn btn-primary">Talk to our team</a>
+                            <a href="web-development.html" class="btn btn-outline">Explore services</a>
+                        </div>
+                        <div class="hero-tags">
+                            <span class="tag-pill">Custom Websites</span>
+                            <span class="tag-pill">E-Commerce</span>
+                            <span class="tag-pill">React & Node.js</span>
+                            <span class="tag-pill">UI/UX Design</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="visual-card">
+                            <div class="visual-glow"></div>
+                            <!-- Modern Browser & Code SVG -->
+                            <svg class="visual-svg" viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="45" y="45" width="150" height="110" rx="12" stroke="#0A0F1F" stroke-width="3"/>
+                                <line x1="45" y1="70" x2="195" y2="70" stroke="#0A0F1F" stroke-width="2.5"/>
+                                <circle cx="62" cy="58" r="3" fill="#2F6BFF"/>
+                                <circle cx="74" cy="58" r="3" fill="#0A0F1F"/>
+                                <circle cx="86" cy="58" r="3" fill="#0A0F1F"/>
+                                <!-- Code Brackets -->
+                                <path d="M102 98 L86 112 L102 126" stroke="#2F6BFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M138 98 L154 112 L138 126" stroke="#2F6BFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <line x1="125" y1="94" x2="115" y2="130" stroke="#0A0F1F" stroke-width="3" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========== SLIDE 3: SOCIAL MEDIA MARKETING ========== -->
+                <div class="hero-slide">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <i class="fa-solid fa-share-nodes"></i> SOCIAL MEDIA MARKETING
+                        </div>
+                        <h1 class="hero-title">
+                            Turn followers into <span class="text-accent">loyal</span> paying customers
+                        </h1>
+                        <p class="hero-desc">
+                            Scroll-stopping creatives, engaging reels, community management, and data-backed content calendars that build real brand authority in Pakistan & beyond.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="https://wa.me/923106780072" target="_blank" class="btn btn-primary">Talk to our team</a>
+                            <a href="social-media.html" class="btn btn-outline">Explore services</a>
+                        </div>
+                        <div class="hero-tags">
+                            <span class="tag-pill">Instagram & FB</span>
+                            <span class="tag-pill">Reels & Video</span>
+                            <span class="tag-pill">Brand Design</span>
+                            <span class="tag-pill">Content Strategy</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="visual-card">
+                            <div class="visual-glow"></div>
+                            <!-- Social Engagement Network SVG -->
+                            <svg class="visual-svg" viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="85" y1="105" x2="145" y2="68" stroke="#0A0F1F" stroke-width="2.5" stroke-dasharray="3 6"/>
+                                <line x1="85" y1="105" x2="148" y2="135" stroke="#0A0F1F" stroke-width="2.5" stroke-dasharray="3 6"/>
+                                <circle cx="75" cy="105" r="20" stroke="#2F6BFF" stroke-width="3.5" fill="#FFFFFF"/>
+                                <circle cx="155" cy="62" r="16" stroke="#0A0F1F" stroke-width="3" fill="#FFFFFF"/>
+                                <circle cx="158" cy="138" r="16" stroke="#2F6BFF" stroke-width="3" fill="#FFFFFF"/>
+                                <!-- Heart/Pulse inside main node -->
+                                <path d="M68 105 L73 110 L83 99" stroke="#2F6BFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========== SLIDE 4: CUSTOM SOFTWARE DEVELOPMENT ========== -->
+                <div class="hero-slide">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <i class="fa-solid fa-layer-group"></i> SOFTWARE DEVELOPMENT
+                        </div>
+                        <h1 class="hero-title">
+                            Smart software that <span class="text-accent">automates</span> your business
+                        </h1>
+                        <p class="hero-desc">
+                            From custom CRM and ERP systems to inventory, billing, and cloud SaaS platforms — we engineer secure software tailored to your exact workflow.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="https://wa.me/923106780072" target="_blank" class="btn btn-primary">Talk to our team</a>
+                            <a href="software-development.html" class="btn btn-outline">Explore services</a>
+                        </div>
+                        <div class="hero-tags">
+                            <span class="tag-pill">Custom ERP/CRM</span>
+                            <span class="tag-pill">POS Systems</span>
+                            <span class="tag-pill">SaaS Platforms</span>
+                            <span class="tag-pill">API Integration</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="visual-card">
+                            <div class="visual-glow"></div>
+                            <!-- Layered Software Architecture SVG -->
+                            <svg class="visual-svg" viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M120 52 L175 80 L120 108 L65 80 Z" stroke="#2F6BFF" stroke-width="3.5" stroke-linejoin="round"/>
+                                <path d="M65 104 L120 132 L175 104" stroke="#0A0F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M65 126 L120 154 L175 126" stroke="#2F6BFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 6"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========== SLIDE 5: APP DEVELOPMENT ========== -->
+                <div class="hero-slide">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <i class="fa-solid fa-mobile-screen-button"></i> APP DEVELOPMENT
+                        </div>
+                        <h1 class="hero-title">
+                            Powerful mobile apps your <span class="text-accent">users</span> love to tap
+                        </h1>
+                        <p class="hero-desc">
+                            Native and cross-platform iOS & Android applications designed with intuitive interfaces, real-time sync, and rock-solid backend performance.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="https://wa.me/923106780072" target="_blank" class="btn btn-primary">Talk to our team</a>
+                            <a href="services.html" class="btn btn-outline">Explore services</a>
+                        </div>
+                        <div class="hero-tags">
+                            <span class="tag-pill">iOS & Android</span>
+                            <span class="tag-pill">Flutter / React Native</span>
+                            <span class="tag-pill">App UI/UX</span>
+                            <span class="tag-pill">Cloud Backend</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="visual-card">
+                            <div class="visual-glow"></div>
+                            <!-- Sleek Mobile App SVG -->
+                            <svg class="visual-svg" viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="82" y="34" width="76" height="132" rx="14" stroke="#0A0F1F" stroke-width="3.5"/>
+                                <line x1="108" y1="46" x2="132" y2="46" stroke="#0A0F1F" stroke-width="3" stroke-linecap="round"/>
+                                <rect x="96" y="64" width="48" height="32" rx="6" stroke="#2F6BFF" stroke-width="3"/>
+                                <line x1="96" y1="112" x2="144" y2="112" stroke="#0A0F1F" stroke-width="3" stroke-linecap="round"/>
+                                <line x1="96" y1="126" x2="126" y2="126" stroke="#2F6BFF" stroke-width="3" stroke-linecap="round"/>
+                                <circle cx="120" cy="150" r="4" fill="#2F6BFF"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Slider Indicators (Lines) -->
+            <div class="hero-indicators" id="hero-indicators">
+                <button class="indicator active" data-slide="0" aria-label="Slide 1"></button>
+                <button class="indicator" data-slide="1" aria-label="Slide 2"></button>
+                <button class="indicator" data-slide="2" aria-label="Slide 3"></button>
+                <button class="indicator" data-slide="3" aria-label="Slide 4"></button>
+                <button class="indicator" data-slide="4" aria-label="Slide 5"></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= WHAT WE DO (SERVICES) SECTION ================= -->
+    <section class="services-section" id="services">
+        <div class="container">
+            
+            <!-- Section Header -->
+            <div class="section-header">
+                <h2 class="section-title">What We Do</h2>
+                <p class="section-subtitle">
+                    Complete IT, creative, and digital marketing solutions to take your business to the next level.
+                </p>
+            </div>
+
+            <!-- 8 Services Grid (4 Columns per row on Desktop) -->
+            <div class="services-grid">
+
+                <!-- Card 1: Web Development -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">Custom Web Development</h3>
+                    <p class="service-desc">
+                        Beautiful, fast, and responsive websites & e-commerce stores tailored to your brand and business goals.
+                    </p>
+                </div>
+
+                <!-- Card 2: Software Development -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-cubes"></i>
+                    </div>
+                    <h3 class="service-title">Software Development</h3>
+                    <p class="service-desc">
+                        Scalable custom software, CRM, ERP, and POS systems built to automate and streamline your daily operations.
+                    </p>
+                </div>
+
+                <!-- Card 3: Mobile App Development -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <h3 class="service-title">App Development</h3>
+                    <p class="service-desc">
+                        High-performance iOS and Android mobile applications that look perfect and run smoothly on every device.
+                    </p>
+                </div>
+
+                <!-- Card 4: Digital Marketing & Meta Ads -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h3 class="service-title">Meta Ads & Marketing</h3>
+                    <p class="service-desc">
+                        Data-driven Meta Ads, Google Ads, and SEO strategies designed to generate leads and maximize your ROI.
+                    </p>
+                </div>
+
+                <!-- Card 5: Social Media Marketing -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <h3 class="service-title">Social Media Management</h3>
+                    <p class="service-desc">
+                        Complete social media handling, content calendars, and audience engagement to build a strong online presence.
+                    </p>
+                </div>
+
+                <!-- Card 6: AI Video Creation -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3 class="service-title">AI Video Creation</h3>
+                    <p class="service-desc">
+                        Next-gen AI-generated video ads, realistic AI avatars, and automated product commercials that grab instant attention.
+                    </p>
+                </div>
+
+                <!-- Card 7: Video Editing -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-film"></i>
+                    </div>
+                    <h3 class="service-title">Pro Video Editing</h3>
+                    <p class="service-desc">
+                        High-retention Instagram Reels, TikToks, YouTube videos, and corporate promos with dynamic motion graphics.
+                    </p>
+                </div>
+
+                <!-- Card 8: Logo & Graphic Design -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-pen-nib"></i>
+                    </div>
+                    <h3 class="service-title">Logo & Graphic Design</h3>
+                    <p class="service-desc">
+                        Memorable brand logos, complete brand kits, social media posts, and marketing visuals that make you stand out.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+<!-- ================= WHY CHOOSE US SECTION ================= -->
+    <section class="why-us-section" id="why-us">
+        <div class="container">
+            
+            <!-- Section Header -->
+            <div class="why-header">
+                <h2 class="why-title">Why Choose Us?</h2>
+                <div class="why-underline"></div>
+            </div>
+
+            <!-- 4-Column Feature Grid with Dividers -->
+            <div class="why-grid">
+
+                <!-- Item 1: Client Focused -->
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <h3 class="why-item-title">Client Focused</h3>
+                    <p class="why-item-desc">
+                        We listen, understand, and give 100% personal attention to deliver solutions that match your exact business goals.
+                    </p>
+                </div>
+
+                <!-- Item 2: Fast Delivery -->
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="why-item-title">Fast Delivery</h3>
+                    <p class="why-item-desc">
+                        Agile workflow and on-time project delivery using modern tools without ever compromising on quality.
+                    </p>
+                </div>
+
+                <!-- Item 3: Quality Assured -->
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="why-item-title">Quality Assured</h3>
+                    <p class="why-item-desc">
+                        Clean code, secure software, scroll-stopping creatives, and high-converting ad strategies you can trust.
+                    </p>
+                </div>
+
+                <!-- Item 4: Clear Communication -->
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fa-regular fa-comment-dots"></i>
+                    </div>
+                    <h3 class="why-item-title">Clear Communication</h3>
+                    <p class="why-item-desc">
+                        Work directly with our core team—no middlemen. We keep you updated on WhatsApp & calls at every step.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= OUR WORK SPEAKS (PORTFOLIO) SECTION ================= -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            
+            <!-- Section Header -->
+            <div class="section-header">
+                <h2 class="section-title">Our Work Speaks</h2>
+                <p class="section-subtitle">
+                    A glimpse of websites, custom software, and digital brands we've built for our amazing clients.
+                </p>
+            </div>
+
+            <!-- 3-Column Portfolio Grid (Perfect for 3 Featured Projects) -->
+            <div class="portfolio-grid">
+
+                <!-- Project 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <!-- Aap yahan apni image src="assets/project1.png" laga sakte hain -->
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Restaurant Website Project" class="portfolio-img">
+                        
+                        <!-- Mockup Overlay Text (Bilkul screenshot jaisa look dene ke liye) -->
+                        <div class="mockup-overlay">
+                            <span class="mockup-tag">Web Development · UI/UX</span>
+                            <h4 class="mockup-heading">Authentic Flavors<br><span>Delightful Experience</span></h4>
+                            <a href="portfolio.html" class="mockup-btn">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="portfolio-title">Restaurant Website & Ordering System</h3>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <!-- Aap yahan apni image src="assets/project2.png" laga sakte hain -->
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80" alt="Real Estate Website Project" class="portfolio-img">
+                        
+                        <div class="mockup-overlay blue-tint">
+                            <span class="mockup-tag">Web Portal · Meta Ads</span>
+                            <h4 class="mockup-heading">Find Your Perfect<br><span>Dream Home</span></h4>
+                            <a href="portfolio.html" class="mockup-btn">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="portfolio-title">Real Estate Portal & Lead Generation</h3>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <!-- Aap yahan apni image src="assets/project3.png" laga sakte hain -->
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80" alt="Business Software Project" class="portfolio-img">
+                        
+                        <div class="mockup-overlay">
+                            <span class="mockup-tag">Custom Software · Branding</span>
+                            <h4 class="mockup-heading">We Create Digital<br><span>Solutions</span></h4>
+                            <a href="portfolio.html" class="mockup-btn">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="portfolio-title">Corporate Business Website & CRM</h3>
+                </div>
+
+            </div>
+
+            <!-- Bottom Pill Button (Exact Screenshot Match) -->
+            <div class="portfolio-Action">
+                <a href="portfolio.html" class="btn-pill-outline">
+                    View More Projects <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CLIENT REVIEWS SECTION ================= -->
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            
+            <!-- Section Header (Exact Screenshot Style) -->
+            <div class="reviews-header">
+                <span class="reviews-badge">CLIENT REVIEWS</span>
+                <h2 class="reviews-title">
+                    What clients say, straight from <span class="text-accent">experience</span>
+                </h2>
+                
+                <!-- Dynamic Rating & Review Counter -->
+                <div class="reviews-summary">
+                    <div class="summary-stars" id="avg-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="summary-text">
+                        <strong id="avg-rating">5.0</strong> rating · <span id="total-reviews-count">3</span> verified reviews
+                    </span>
+                </div>
+            </div>
+
+            <!-- Reviews Carousel Wrapper -->
+            <div class="reviews-carousel-wrapper">
+                
+                <!-- Left Arrow -->
+                <button class="review-arrow prev-review" id="prev-review" aria-label="Previous Reviews">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <!-- Dynamic Reviews Track (JS will render cards here) -->
+                <div class="reviews-viewport">
+                    <div class="reviews-track" id="reviews-track">
+                        <!-- Cards are injected dynamically via JS -->
+                    </div>
+                </div>
+
+                <!-- Right Arrow -->
+                <button class="review-arrow next-review" id="next-review" aria-label="Next Reviews">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+
+            </div>
+
+            <!-- Pagination Dots -->
+            <div class="reviews-dots" id="reviews-dots"></div>
+
+            <!-- Bottom Button: Opens "Leave a Review" Modal -->
+            <div class="reviews-action">
+                <button class="btn-leave-review" id="open-review-modal">
+                    <i class="fa-regular fa-pen-to-square"></i> Leave us a review
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= LEAVE A REVIEW MODAL (POPUP) ================= -->
+    <div class="review-modal-overlay" id="review-modal">
+        <div class="review-modal-box">
+            <button class="modal-close" id="close-review-modal" aria-label="Close Modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <h3 class="modal-title">Share Your Experience</h3>
+            <p class="modal-subtitle">Worked with ReachCraft? Your feedback helps us grow!</p>
+
+            <form id="review-form" class="review-form">
+                <!-- Interactive Star Selector -->
+                <div class="form-group">
+                    <label>Your Rating</label>
+                    <div class="star-rating-input" id="star-input">
+                        <i class="fa-solid fa-star active" data-value="1"></i>
+                        <i class="fa-solid fa-star active" data-value="2"></i>
+                        <i class="fa-solid fa-star active" data-value="3"></i>
+                        <i class="fa-solid fa-star active" data-value="4"></i>
+                        <i class="fa-solid fa-star active" data-value="5"></i>
+                    </div>
+                    <input type="hidden" id="review-rating" value="5" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reviewer-name">Your Full Name *</label>
+                    <input type="text" id="reviewer-name" placeholder="e.g. Usman Ali" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reviewer-service">Service Used *</label>
+                    <select id="reviewer-service" required>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Custom Software">Custom Software Development</option>
+                        <option value="Meta Ads & Marketing">Meta Ads & Digital Marketing</option>
+                        <option value="Social Media Management">Social Media Management</option>
+                        <option value="AI Video & Editing">AI Video Creation & Editing</option>
+                        <option value="Logo & Graphic Design">Logo & Graphic Design</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="reviewer-text">Your Review *</label>
+                    <textarea id="reviewer-text" rows="4" placeholder="Tell others how ReachCraft helped your business..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary modal-submit-btn">
+                    Submit Review
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- ================= CTA BANNER SECTION ================= -->
+    <section class="cta-section" id="cta">
+        <div class="container cta-container">
+            
+            <!-- Left Side: Text & Button -->
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Grow Your Business Online?</h2>
+                <p class="cta-desc">
+                    Let's build a professional website, custom software, or high-converting ad campaign that brings you more customers and grows your brand.
+                </p>
+                <a href="contact.html" class="btn-cta-white">
+                    Get a Free Quote <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Right Side: Laptop, Dashboard Screen, Plant & Mug Illustration (Exact Screenshot Match) -->
+            <div class="cta-visual">
+                <svg class="cta-illustration" viewBox="0 0 560 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    
+                    <!-- Soft Background Glow Behind Laptop -->
+                    <circle cx="260" cy="135" r="120" fill="white" fill-opacity="0.06"/>
+                    <circle cx="330" cy="110" r="85" fill="white" fill-opacity="0.05"/>
+
+                    <!-- Wooden Desk Surface (Right Side Fade) -->
+                    <defs>
+                        <linearGradient id="deskGrad" x1="40" y1="242" x2="560" y2="242" gradientUnits="userSpaceOnUse">
+                            <stop offset="0%" stop-color="#4A3F35" stop-opacity="0"/>
+                            <stop offset="22%" stop-color="#5C4D42" stop-opacity="0.85"/>
+                            <stop offset="100%" stop-color="#6E5D4F" stop-opacity="1"/>
+                        </linearGradient>
+                        <linearGradient id="laptopBase" x1="115" y1="228" x2="405" y2="228" gradientUnits="userSpaceOnUse">
+                            <stop offset="0%" stop-color="#94A3B8"/>
+                            <stop offset="50%" stop-color="#E2E8F0"/>
+                            <stop offset="100%" stop-color="#64748B"/>
+                        </linearGradient>
+                    </defs>
+
+                    <!-- Desk Table Top -->
+                    <path d="M40 236 H560 V280 H40 Z" fill="url(#deskGrad)"/>
+                    <line x1="80" y1="236" x2="560" y2="236" stroke="#8C7A6B" stroke-width="2" stroke-opacity="0.5"/>
+
+                    <!-- ================= LAPTOP ================= -->
+                    <!-- Laptop Outer Lid / Bezel -->
+                    <rect x="135" y="24" width="250" height="168" rx="10" fill="#0A0F1F" stroke="#334155" stroke-width="2"/>
+                    <!-- Webcam Dot -->
+                    <circle cx="260" cy="31" r="2" fill="#475569"/>
+
+                    <!-- Laptop Inner White Screen -->
+                    <rect x="145" y="37" width="230" height="143" rx="3" fill="#F8FAFF"/>
+
+                    <!-- Screen Top Browser Bar -->
+                    <rect x="145" y="37" width="230" height="18" fill="#E2E8F0"/>
+                    <circle cx="156" cy="46" r="2.5" fill="#94A3B8"/>
+                    <circle cx="164" cy="46" r="2.5" fill="#94A3B8"/>
+                    <circle cx="172" cy="46" r="2.5" fill="#94A3B8"/>
+                    <rect x="335" y="43" width="28" height="6" rx="3" fill="#CBD5E1"/>
+
+                    <!-- Screen Wireframe UI: Left Analytics Card -->
+                    <rect x="160" y="68" width="92" height="58" rx="5" fill="#E2E8F0"/>
+                    <!-- Trend Line inside Left Card -->
+                    <path d="M178 106 L195 92 L208 100 L232 80" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M225 80 H232 V87" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+                    <!-- Bottom 2 Mini Cards on Left -->
+                    <rect x="160" y="134" width="42" height="32" rx="4" fill="#E2E8F0"/>
+                    <rect x="168" y="145" width="26" height="4" rx="2" fill="#CBD5E1"/>
+                    <rect x="172" y="153" width="18" height="4" rx="2" fill="#CBD5E1"/>
+
+                    <rect x="210" y="134" width="42" height="32" rx="4" fill="#E2E8F0"/>
+                    <rect x="218" y="145" width="26" height="4" rx="2" fill="#CBD5E1"/>
+                    <rect x="222" y="153" width="18" height="4" rx="2" fill="#CBD5E1"/>
+
+                    <!-- Screen Wireframe UI: Right Content Lines -->
+                    <rect x="266" y="70" width="90" height="6" rx="3" fill="#CBD5E1"/>
+                    <rect x="266" y="82" width="76" height="6" rx="3" fill="#E2E8F0"/>
+                    <rect x="266" y="94" width="84" height="6" rx="3" fill="#E2E8F0"/>
+
+                    <rect x="266" y="112" width="26" height="18" rx="3" fill="#CBD5E1"/>
+                    <rect x="300" y="114" width="56" height="5" rx="2.5" fill="#CBD5E1"/>
+                    <rect x="300" y="123" width="42" height="5" rx="2.5" fill="#E2E8F0"/>
+
+                    <rect x="266" y="142" width="88" height="6" rx="3" fill="#E2E8F0"/>
+                    <rect x="266" y="154" width="70" height="6" rx="3" fill="#E2E8F0"/>
+
+                    <!-- Laptop Keyboard Base (3D Perspective) -->
+                    <path d="M135 192 L112 226 H408 L385 192 H135 Z" fill="#CBD5E1"/>
+                    <!-- Dark Keyboard Keys Area -->
+                    <path d="M142 196 L128 215 H392 L378 196 H142 Z" fill="#0F172A"/>
+                    <!-- Trackpad -->
+                    <path d="M238 217 L234 224 H286 L282 217 H238 Z" fill="#94A3B8"/>
+                    <!-- Laptop Front Metallic Edge -->
+                    <rect x="112" y="226" width="296" height="8" rx="3" fill="url(#laptopBase)"/>
+                    <!-- Shadow under laptop -->
+                    <ellipse cx="260" cy="236" rx="155" ry="4" fill="#0A0F1F" fill-opacity="0.45"/>
+
+                    <!-- ================= POTTED PLANT ================= -->
+                    <!-- Green Leaves -->
+                    <path d="M455 152 C442 125 432 95 442 75 C452 95 458 122 455 152 Z" fill="#15803D"/>
+                    <path d="M462 152 C460 115 468 82 482 65 C486 92 478 125 462 152 Z" fill="#22C55E"/>
+                    <path d="M450 155 C430 135 415 118 418 102 C434 112 446 132 450 155 Z" fill="#22C55E"/>
+                    <path d="M468 155 C485 132 502 115 508 98 C490 108 475 128 468 155 Z" fill="#16A34A"/>
+                    <path d="M458 152 C455 122 458 95 460 72 C466 95 465 122 458 152 Z" fill="#4ADE80"/>
+
+                    <!-- White Ceramic Pot -->
+                    <path d="M432 148 H488 L482 222 C481 228 476 232 470 232 H450 C444 232 439 228 438 222 L432 148 Z" fill="#F1F5F9"/>
+                    <path d="M460 148 H488 L482 222 C481 228 476 232 470 232 H460 V148 Z" fill="#E2E8F0"/>
+                    <ellipse cx="460" cy="148" rx="28" ry="5" fill="#CBD5E1"/>
+
+                    <!-- ================= NAVY COFFEE MUG ================= -->
+                    <!-- Mug Handle -->
+                    <path d="M518 188 H532 C539 188 544 193 544 200 V212 C544 219 539 224 532 224 H518" stroke="#0B1F4B" stroke-width="6" stroke-linecap="round"/>
+                    <!-- Mug Body -->
+                    <rect x="476" y="176" width="46" height="58" rx="6" fill="#0B1F4B"/>
+                    <rect x="500" y="176" width="22" height="58" rx="4" fill="#0A0F1F" fill-opacity="0.35"/>
+                    <!-- Mug Top Rim -->
+                    <ellipse cx="499" cy="176" rx="23" ry="4.5" fill="#1E3A8A"/>
+                </svg>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER SECTION ================= -->
+    <footer class="site-footer">
+        <div class="container">
+            
+            <!-- Top Footer Grid -->
+            <div class="footer-grid">
+
+                <!-- Column 1: Brand Info & Socials -->
+                <div class="footer-brand">
+                    <a href="index.html" class="brand-logo footer-logo">
+                        <div class="logo-box">
+                            <img src="assets/logo.png" alt="ReachCraft Logo" class="logo-img">
+                        </div>
+                        <span class="logo-text">Reach<span class="text-accent">Craft</span></span>
+                    </a>
+                    <p class="footer-desc">
+                        All-in-one digital agency in Pakistan building modern websites, custom software, AI videos, and high-converting Meta ad campaigns.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="https://web.facebook.com/profile.php?id=61595553507554" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/thereachcraft/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/reach-craft/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/923106780072" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: IT Services -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">IT Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="web-development.html">Web Development</a></li>
+                        <li><a href="software-development.html">Custom Software</a></li>
+                        <li><a href="services.html">Mobile App Dev</a></li>
+                        <li><a href="services.html">E-Commerce Stores</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Creative & Marketing -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Marketing & AI</h4>
+                    <ul class="footer-links">
+                        <li><a href="meta-ads.html">Meta Ads & Google Ads</a></li>
+                        <li><a href="social-media.html">Social Media Marketing</a></li>
+                        <li><a href="services.html">AI Video Creation</a></li>
+                        <li><a href="services.html">Logo & Video Editing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Company & Contact Info -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#portfolio">Case Studies</a></li>
+                        <li><a href="#reviews">Client Reviews</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 5: Newsletter & Quick Contact (Exact Screenshot Match) -->
+                <div class="footer-newsletter">
+                    <h4 class="footer-heading">Newsletter</h4>
+                    <p class="newsletter-text">
+                        Get the latest digital growth tips & updates straight to your inbox.
+                    </p>
+                    <form id="newsletter-form" class="newsletter-form">
+                        <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                        <button type="submit" aria-label="Subscribe">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                    <div class="footer-direct-contact">
+                        <a href="tel:+923106780072"><i class="fa-solid fa-phone"></i> 0310 6780072</a>
+                        <a href="tel:+923010754505"><i class="fa-brands fa-whatsapp"></i> +92 301 0754505</a>
+                        <a href="mailto:reachcraft1@gmail.com"><i class="fa-regular fa-envelope"></i> reachcraft1@gmail.com</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Divider & Copyright Bar -->
+            <div class="footer-bottom">
+                <p class="copyright-text">
+                    &copy; 2026 <strong>ReachCraft</strong>. All rights reserved. | Designed &amp; Developed by <span class="text-accent">ReachCraft Team</span>
+                </p>
+                <div class="footer-legal">
+                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Quick Chat Button -->
+    <a href="https://wa.me/923106780072?text=Hi%20ReachCraft%20Team!%20I%20want%20to%20discuss%20a%20project." target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

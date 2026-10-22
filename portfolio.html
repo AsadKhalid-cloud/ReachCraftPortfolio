@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies & Recent Projects | ReachCraft Digital Agency</title>
+    
+    <!-- Google Fonts: Poppins & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ================= MAIN NAVBAR ================= -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-content">
+            
+            <a href="index.html" class="brand-logo">
+                <div class="logo-box">
+                    <img src="assets/logo.png" alt="ReachCraft Logo" class="logo-img">
+                </div>
+                <span class="logo-text">Reach<span class="text-accent">Craft</span></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a href="about.html" class="nav-link">COMPANY <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html#about-story">About Us</a></li>
+                            <li><a href="about.html#our-team">Our Team</a></li>
+                            <li><a href="about.html#why-choose-us">Why Choose Us</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="services.html" class="nav-link">SERVICES <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services.html#web-dev">Web Development</a></li>
+                            <li><a href="services.html#software-dev">Custom Software &amp; Apps</a></li>
+                            <li><a href="services.html#social-media">Social Media Marketing</a></li>
+                            <li><a href="services.html#meta-ads">Digital Marketing (Meta Ads)</a></li>
+                            <li><a href="services.html#ai-creative">AI Video, Editing &amp; Branding</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="portfolio.html" class="nav-link active">CASE STUDIES <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="portfolio.html#recent-projects">Recent Projects</a></li>
+                            <li><a href="portfolio.html#success-stories">Client Success Stories</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">BLOG</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+        <!-- Right Header CTA Button -->
+            <div class="nav-cta">
+                <a href="https://wa.me/923106780072" class="nav-quote-btn">
+                    <span>Get a Free Quote</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ================= 1. CASE STUDIES HERO BANNER ================= -->
+    <section class="page-hero">
+        <div class="container page-hero-content">
+            <span class="hero-badge"><i class="fa-solid fa-briefcase"></i> OUR PORTFOLIO &amp; RESULTS</span>
+            <h1 class="page-hero-title">
+                Real Projects. Real Brands.<br>
+                <span class="text-accent">Crafted With Precision.</span>
+            </h1>
+            <p class="page-hero-desc">
+                Explore the websites, custom software systems, AI video commercials, and Meta ad campaigns we have built to help businesses grow.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= 2. RECENT PROJECTS SECTION (WITH FILTER TABS) ================= -->
+    <section class="recent-projects-section" id="recent-projects">
+        <div class="container">
+            
+            <div class="section-header">
+                <span class="reviews-badge">RECENT PROJECTS</span>
+                <h2 class="section-title">Featured Work &amp; Creations</h2>
+                <p class="section-subtitle">
+                    Filter through our recent development, marketing, and creative studio projects.
+                </p>
+
+                <!-- Interactive Filter Buttons -->
+                <div class="portfolio-filters" id="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All Work</button>
+                    <button class="filter-btn" data-filter="web-software">Web &amp; Software</button>
+                    <button class="filter-btn" data-filter="marketing">Meta Ads &amp; Social</button>
+                    <button class="filter-btn" data-filter="creative">AI Video &amp; Design</button>
+                </div>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="case-projects-grid" id="case-projects-grid">
+
+                <!-- Project Card 1: Restaurant Website -->
+                <div class="case-card" data-category="web-software">
+                    <div class="case-thumb">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Restaurant Website Project">
+                        <span class="case-category-pill">Web Development</span>
+                    </div>
+                    <div class="case-body">
+                        <h3>Restaurant Website &amp; Online Ordering</h3>
+                        <p>Modern responsive website with digital menu, table reservation, and direct WhatsApp order integration for fast local deliveries.</p>
+                        <div class="case-tags">
+                            <span>HTML/CSS/JS</span>
+                            <span>WhatsApp Orders</span>
+                            <span>Mobile First</span>
+                        </div>
+                        <a href="https://wa.me/923106780072?text=Hi%20ReachCraft!%20I%20liked%20your%20Restaurant%20Website%20project." target="_blank" class="case-link">
+                            Build Similar Project <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: Real Estate Portal -->
+                <div class="case-card" data-category="web-software">
+                    <div class="case-thumb">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80" alt="Real Estate Portal Project">
+                        <span class="case-category-pill">Web Portal + Meta Ads</span>
+                    </div>
+                    <div class="case-body">
+                        <h3>Real Estate Property Portal &amp; Lead Funnel</h3>
+                        <p>Property listing platform with advanced search filters (location, price, property type) paired with targeted Meta Lead Ads.</p>
+                        <div class="case-tags">
+                            <span>Custom Portal</span>
+                            <span>Lead Capture</span>
+                            <span>Meta Pixel</span>
+                        </div>
+                        <a href="https://wa.me/923106780072?text=Hi%20ReachCraft!%20I%20liked%20your%20Real%20Estate%20project." target="_blank" class="case-link">
+                            Build Similar Project <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: Custom Software / Billing CRM -->
+                <div class="case-card" data-category="web-software">
+                    <div class="case-thumb">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" alt="Custom Software Dashboard">
+                        <span class="case-category-pill">Custom Software</span>
+                    </div>
+                    <div class="case-body">
+                        <h3>Business Inventory, POS &amp; Billing System</h3>
+                        <p>Custom web-based management software built with Node.js &amp; SQL to track daily sales, stock alerts, and customer invoices.</p>
+                        <div class="case-tags">
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                            <span>Admin Dashboard</span>
+                        </div>
+                        <a href="https://wa.me/923106780072?text=Hi%20ReachCraft!%20I%20want%20custom%20software%20for%20my%20business." target="_blank" class="case-link">
+                            Request Live Demo <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 4: Meta Ads & Social Growth -->
+                <div class="case-card" data-category="marketing">
+                    <div class="case-thumb">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" alt="Meta Ads Campaign">
+                        <span class="case-category-pill">Meta Ads &amp; Social</span>
+                    </div>
+                    <div class="case-body">
+                        <h3>SME Lead Generation &amp; Social Media Growth</h3>
+                        <p>Full social media makeover and targeted Facebook &amp; Instagram ad campaigns driving qualified daily inquiries directly to WhatsApp.</p>
+                        <div class="case-tags">
+                            <span>Meta Ads Manager</span>
+                            <span>Ad Creatives</span>
+                            <span>3.4x ROI</span>
+                        </div>
+                        <a href="https://wa.me/923106780072?text=Hi%20ReachCraft!%20I%20want%20to%20run%20Meta%20Ads." target="_blank" class="case-link">
+                            Scale My Brand <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 5: AI Video Creation & Reels -->
+                <div class="case-card" data-category="creative">
+                    <div class="case-thumb">
+                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=900&q=80" alt="AI Video & Editing">
+                        <span class="case-category-pill">AI Video &amp; Editing</span>
+                    </div>
+                    <div class="case-body">
+                        <h3>AI Commercial Ads &amp; High-Retention Reels</h3>
+                        <p>Scroll-stopping AI product commercials, dynamic captions, and motion graphics designed for Instagram Reels, TikTok, and YouTube Shorts.</p>
+                        <div class="case-tags">
+                            <span>AI Video Ads</span>
+                            <span>Premiere Pro</span>
+                            <span>Viral Hooks</span>
+                        </div>
+                        <a href="https://wa.me/923106780072?text=Hi%20ReachCraft!%20Send%20me%20your%20AI%20Video%20and%20Editing%20samples." target="_blank" class="case-link">
+                            Watch Video Samples <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 6: Brand Identity & Logo Design -->
+                <div class="case-card" data-category="creative">
+                    <div class="case-thumb">
+                        <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=900&q=80" alt="Brand Identity & Logo">
+                        <span class="case-category-pill">Logo &amp; Brand Kit</span>
+                    </div>
+                    <div class="case-body">
+                        <h3>Complete Brand Identity &amp; Social Media Kit</h3>
+                        <p>Modern vector logo design, typography guidelines, color palettes, and social media post templates crafted for startups in Pakistan.</p>
+                        <div class="case-tags">
+                            <span>Logo Design</span>
+                            <span>Brand Guide</span>
+                            <span>Social Kit</span>
+                        </div>
+                        <a href="https://wa.me/923106780072?text=Hi%20ReachCraft!%20I%20need%20a%20Logo%20and%20Brand%20Kit." target="_blank" class="case-link">
+                            Design My Brand <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= 3. CLIENT SUCCESS STORIES (DEEP CASE STUDIES) ================= -->
+    <section class="success-stories-section" id="success-stories">
+        <div class="container">
+            
+            <div class="team-header">
+                <span class="team-badge">CLIENT SUCCESS STORIES</span>
+                <h2 class="team-title">How We Solve Real <span class="text-accent">Business Challenges</span></h2>
+                <p class="team-subtitle">
+                    See the exact problem, our strategy, and the final impact we delivered for our clients.
+                </p>
+            </div>
+
+            <div class="stories-list">
+
+                <!-- Story 1 -->
+                <div class="story-breakdown-card">
+                    <div class="story-breakdown-header">
+                        <span class="story-tag">CASE STUDY #01 · WEB DEVELOPMENT &amp; BRANDING</span>
+                        <h3>Transforming an Offline Business Into a Modern Digital Brand</h3>
+                    </div>
+
+                    <div class="story-3col-grid">
+                        <div class="story-col">
+                            <h4><i class="fa-solid fa-triangle-exclamation"></i> The Challenge</h4>
+                            <p>The client relied only on word-of-mouth and had no website or professional social presence, losing online customers to competitors.</p>
+                        </div>
+
+                        <div class="story-col">
+                            <h4><i class="fa-solid fa-gears"></i> Our Solution</h4>
+                            <p>We designed a complete brand identity, built a fast mobile-first website with one-click WhatsApp inquiries, and optimized their Google presence.</p>
+                        </div>
+
+                        <div class="story-col result-col">
+                            <h4><i class="fa-solid fa-chart-line"></i> The Impact</h4>
+                            <p>A 100% professional online storefront that loads in under 2 seconds and generates direct customer inquiries on WhatsApp every week.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Story 2 -->
+                <div class="story-breakdown-card">
+                    <div class="story-breakdown-header">
+                        <span class="story-tag">CASE STUDY #02 · META ADS + AI VIDEO CREATIVES</span>
+                        <h3>Lowering Ad Costs With High-Converting Video Creatives</h3>
+                    </div>
+
+                    <div class="story-3col-grid">
+                        <div class="story-col">
+                            <h4><i class="fa-solid fa-triangle-exclamation"></i> The Challenge</h4>
+                            <p>The business was boosting basic static image posts on Facebook with poor targeting, getting likes but zero actual buyers.</p>
+                        </div>
+
+                        <div class="story-col">
+                            <h4><i class="fa-solid fa-gears"></i> Our Solution</h4>
+                            <p>We produced engaging AI video ads &amp; edited Reels with strong hooks, and launched structured WhatsApp lead campaigns via Meta Ads Manager.</p>
+                        </div>
+
+                        <div class="story-col result-col">
+                            <h4><i class="fa-solid fa-chart-line"></i> The Impact</h4>
+                            <p>Stopped wasted ad spend and turned social media into a predictable lead-generation channel with high-intent WhatsApp chats.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= 4. CTA BANNER ================= -->
+    <section class="cta-section">
+        <div class="container cta-container">
+            <div class="cta-content">
+                <h2 class="cta-title">Want Your Business to Be Our Next Success Story?</h2>
+                <p class="cta-desc">
+                    Let’s discuss your project today. Whether it’s a website, custom software, or Meta ads—we’re ready to build.
+                </p>
+                <a href="contact.html" class="btn-cta-white">
+                    Start Your Project <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="cta-visual">
+                <svg class="cta-illustration" viewBox="0 0 560 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="280" cy="120" r="105" fill="white" fill-opacity="0.07"/>
+                    <rect x="150" y="30" width="260" height="165" rx="12" fill="#0A0F1F" stroke="#334155" stroke-width="2"/>
+                    <rect x="162" y="44" width="236" height="137" rx="4" fill="#F8FAFF"/>
+                    <path d="M190 140 L235 100 L275 122 L335 72" stroke="#2F6BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="335" cy="72" r="6" fill="#2F6BFF"/>
+                    <path d="M125 195 H435 L415 215 H145 L125 195 Z" fill="#CBD5E1"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="brand-logo footer-logo">
+                        <div class="logo-box">
+                            <img src="assets/logo.png" alt="ReachCraft Logo" class="logo-img">
+                        </div>
+                        <span class="logo-text">Reach<span class="text-accent">Craft</span></span>
+                    </a>
+                    <p class="footer-desc">
+                        All-in-one digital agency in Pakistan building modern websites, custom software, AI videos, and high-converting Meta ad campaigns.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="https://facebook.com/ReachCraft" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/thereachcraft" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/company/ReachCraft" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/923106780072" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">IT Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#web-dev">Web Development</a></li>
+                        <li><a href="services.html#software-dev">Custom Software</a></li>
+                        <li><a href="services.html#software-dev">Mobile App Dev</a></li>
+                        <li><a href="services.html#web-dev">E-Commerce Stores</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Marketing &amp; AI</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#meta-ads">Meta Ads &amp; Google Ads</a></li>
+                        <li><a href="services.html#social-media">Social Media Marketing</a></li>
+                        <li><a href="services.html#ai-creative">AI Video Creation</a></li>
+                        <li><a href="services.html#ai-creative">Logo &amp; Video Editing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html#about-story">About Us</a></li>
+                        <li><a href="about.html#our-team">Our Team</a></li>
+                        <li><a href="portfolio.html#recent-projects">Recent Projects</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4 class="footer-heading">Newsletter</h4>
+                    <p class="newsletter-text">
+                        Get the latest digital growth tips &amp; updates straight to your inbox.
+                    </p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" aria-label="Subscribe">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                    <div class="footer-direct-contact">
+                        <a href="tel:+923106780072"><i class="fa-solid fa-phone"></i> 0310 6780072</a>
+                        <a href="tel:+923010754505"><i class="fa-brands fa-whatsapp"></i> +92 301 0754505</a>
+                        <a href="mailto:reachcraft1@gmail.com"><i class="fa-regular fa-envelope"></i> reachcraft1@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright-text">
+                    &copy; 2026 <strong>ReachCraft</strong>. All rights reserved. | Designed &amp; Developed by <span class="text-accent">ReachCraft Team</span>
+                </p>
+                <div class="footer-legal">
+                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/923106780072" target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
